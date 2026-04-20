@@ -1,0 +1,57 @@
+# ignore any build/install/log folders anywhere in tree
+build/
+install/
+devel/
+log/
+local/
+_colcon_install_layout
+/.colcon_install_layout
+/.built_by
+COLCON_IGNORE
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+*.whl
+
+# Binaries / libs / compiled
+*.so
+*.a
+*.dll
+*.exe
+lib/
+
+# ROS / bags / db
+*.bag
+*.bag.active
+*.db3
+
+# IDEs / editors
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# temp / swap
+*~
+*.swp
+*.tmp
+
+# logs
+*.log
+# local user files (do not commit)
+.Xauthority
+.bash_history
+.bash_logout
+.bashrc
+.profile
+.sudo_as_admin_successful
+.viminfo
+.wget-hsts
